@@ -2,7 +2,8 @@
 > Toggle array element.
 
 
-## resources:
-
-## todos:
-- [ ] unit test case
+## usgae:
+```js
+nx.toggle([1,2,3,4], 5);
+// [1,2,3,4,5]
+```
