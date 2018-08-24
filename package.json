@@ -1,6 +1,6 @@
 {
   "name": "next-toggle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Toggle array element.",
   "homepage": "https://github.com/afeiship/next-toggle",
   "author": {
@@ -8,7 +8,8 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "test": "mocha"
   },
   "main": "dist/next-toggle.js",
   "license": "MIT",
