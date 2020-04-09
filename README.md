@@ -1,9 +1,14 @@
 # next-toggle
 > Toggle array element.
 
+## installation
+```bash
+npm install -S @feizheng/next-toggle
+```
 
-## usgae:
+## usage
 ```js
-nx.toggle([1,2,3,4], 5);
-// [1,2,3,4,5]
+import '@feizheng/next-toggle';
+
+//DOCS here!
 ```
