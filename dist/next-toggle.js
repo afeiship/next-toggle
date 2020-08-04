@@ -1,26 +1,24 @@
 /*!
  * name: @feizheng/next-toggle
  * description: Toggle array element.
- * url: https://github.com/afeiship/next-toggle
- * version: 1.0.0
- * date: 2020-04-10 07:56:29
+ * homepage: https://github.com/afeiship/next-toggle
+ * version: 1.0.1
+ * date: 2020-08-04T01:27:09.627Z
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var UNDEFIND = 'undefined';
+  var UNDEFINED = 'undefined';
 
   nx.toggle = function (inArray, inItem, inPath) {
     var idx = inArray.findIndex(function (item) {
-      return typeof inPath === UNDEFIND
+      return typeof inPath === UNDEFINED
         ? inItem === item
         : nx.get(item, inPath) === nx.get(inItem, inPath);
     });
-
     idx === -1 ? inArray.push(inItem) : inArray.splice(idx, 1);
-
     return inArray;
   };
 
@@ -28,5 +26,3 @@
     module.exports = nx.toggle;
   }
 })();
-
-//# sourceMappingURL=next-toggle.js.map
