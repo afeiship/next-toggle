@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-toggle
+npm install -S @jswork/next-toggle
 ```
 
 ## usage
 ```js
-import '@feizheng/next-toggle';
+import '@jswork/next-toggle';
 
 const arr = [1,2,3,4];
 
@@ -26,14 +26,14 @@ nx.toggle(arr, 5);
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-toggle/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-toggle
-[version-url]: https://npmjs.org/package/@feizheng/next-toggle
+[version-image]: https://img.shields.io/npm/v/@jswork/next-toggle
+[version-url]: https://npmjs.org/package/@jswork/next-toggle
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-toggle
+[license-image]: https://img.shields.io/npm/l/@jswork/next-toggle
 [license-url]: https://github.com/afeiship/next-toggle/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-toggle
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-toggle
 [size-url]: https://github.com/afeiship/next-toggle/blob/master/dist/next-toggle.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-toggle
-[download-url]: https://www.npmjs.com/package/@feizheng/next-toggle
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-toggle
+[download-url]: https://www.npmjs.com/package/@jswork/next-toggle
