@@ -3,7 +3,7 @@
  * description: Toggle array element.
  * homepage: https://github.com/afeiship/next-toggle
  * version: 1.0.0
- * date: 2020-11-20 17:24:26
+ * date: 2020-11-20 17:28:44
  * license: MIT
  */
 
